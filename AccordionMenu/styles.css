@@ -1,0 +1,115 @@
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2929;
+}
+.mainMenu {
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item {
+    border-top: 1px solid #ef4d4a;
+    overflow: hidden;
+}
+.btn {
+    display: block;
+    padding: 15px 20px;
+    background-color: #ef4d4a;
+    color: rgb(6, 6, 6);
+    position: relative;
+}
+.btn:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ef4d4a;
+    right: 15px;
+    bottom:
+        -10px;
+    z-index: 9;
+}
+.btn i {
+    margin-right: 10px;
+}
+
+.subMenu {
+    background: rgb(28, 27, 27);
+    overflow: hidden;
+    transition: max-height 0.7s;
+    max-height: 0;
+}
+
+.subMenu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #7f3939;
+    position: relative;
+}
+
+.subMenu a:before {
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.subMenu a:hover:before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 6px;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    border-top: 24px solid transparent;
+    border-left: 11px solid #fcaf29;
+    border-bottom: 24px solid transparent;
+}
+
+.subMenu a:after {
+    content: '';
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.subMenu a:hover:after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 6px;
+    right: Opx;
+    top: 0;
+    opacity: 1;
+    border-top: 24px solid transparent;
+    border-right: 11px solid #fcaf29;
+    border-bottom: 24px solid transparent;
+}
+
+.subMenu a:hover {
+    background: #273057;
+    background: linear-gradient(to bottom, #572727 0%, #572727 50%, #7f3939 51%, #7f3939 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#273057', endColorstr='#394c7f', GradientType=0);
+    transition: all 0.3s;
+    border-bottom: 1px solid #394c7f;
+}
+
+.subMenu a:last-child {
+    border: none;
+}
+
+.item:target .subMenu {
+    max-height: 10em;
+}
