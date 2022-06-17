@@ -45,7 +45,7 @@ function Banner() {
           <button className='banner__button'>My List</button>
         </div>
         <h1 className='banner__description'>{movie?.overview}</h1>
-        {truncate(movie?.overview, 150)}
+        {/* {truncate(movie?.overview, 150)} */}
       </div>
 
       <div className='banner--fadeBottom'></div>
