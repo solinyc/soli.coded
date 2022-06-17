@@ -1,0 +1,10 @@
+Use themoviedb.org for movie API keys
+
+API Key (v3 auth) = "d7989461f764f22855179ba9ace719ae"
+
+Example API Request = "https://api.themoviedb.org/3/movie/550?api_key=d7989461f764f22855179ba9ace719ae"
+
+API Read Access Token (v4 auth) = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNzk4OTQ2MWY3NjRmMjI4NTUxNzliYTlhY2U3MTlhZSIsInN1YiI6IjYyYWM2YjQ4NjUxZmNmMDMyODhiYjM4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8wNiGDq2KMkOp3udy4A1MYYTGyAz9QHG_QtTya_2iTs"
+
+"command + t" in postman to test API GET request
+

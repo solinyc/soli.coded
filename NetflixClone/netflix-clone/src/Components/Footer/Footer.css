@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vmin;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+   
+}
+footer ul{
+    list-style: none;
+}
+.solinyc {
+    width: 100px;
+}
+
+.footerwords{
+    font-family: 'Handlee', cursive;
+  }
+  
+  .logo-footer, .social-footer{
+    padding-top: 5px;
+    height: 5vmin;
+  }
+  
+  .social-footer:hover{
+    background-color: #fff;
+  }
+  .logo-footer:hover{
+    background-color: #078;
+  }
+  
+ 
+  
+  
+
+  
