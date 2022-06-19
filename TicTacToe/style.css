@@ -1,0 +1,64 @@
+html{
+    background-color: rgb(31, 29, 29);
+    
+  }
+    h1 {
+        color: rgb(20, 58, 172);
+        font-size: 45px;
+        font-family: 'Handlee', cursive;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(227, 250, 215);
+        background-color: rgb(31, 29, 29);
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid rgb(20, 58, 172);
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(20, 58, 172);
+        color: rgb(227, 250, 215);
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: 'Handlee', cursive;
+        color: rgb(194, 14, 14);
+        font-size: 26px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+        background-color: rgb(227, 250, 215);
+        margin:10vmin;
+        padding:2vmin;
+        border: 5px solid rgb(227, 250, 215);
+        border-radius: 14px;
+        }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+             
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+    }
