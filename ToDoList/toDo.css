@@ -2,29 +2,24 @@
   box-sizing: border-box;
   font-family: "Handlee", cursive;
 }
-
 form {
   border: 5px solid;
   border-radius: 20px;
 }
-
 body {
   margin: 10px auto;
   min-width: 350px;
   max-width: 30%;
 }
-
 h2 {
   font-size: 50px;
   margin: 5px;
   text-decoration: black underline;
 }
-
 ul {
   margin: 0;
   padding: 0;
 }
-
 ul li {
   position: relative;
   padding: 12px 8px 12px 40px;
@@ -32,7 +27,6 @@ ul li {
   background: #eee;
   font-size: 18px;
   transition: 0.3s;
-
   /* disable select option */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -46,7 +40,6 @@ ul li.checked {
   color: white;
   text-decoration: line-through;
 }
-
 ul li.checked::before {
   position: absolute;
   border-color: white;
@@ -57,7 +50,6 @@ ul li.checked::before {
   height: 15px;
   width: 7px;
 }
-
 /* Style the 'x'' button */
 .close {
   position: absolute;
@@ -65,12 +57,10 @@ ul li.checked::before {
   top: 0;
   padding: 1% 2% 1% 2%;
 }
-
 .close:hover {
   background-color: crimson;
   color: white;
 }
-
 .header {
   background-color: rgb(4, 4, 4);
   border: 4px solid rgb(154, 0, 0);
@@ -84,13 +74,11 @@ ul li.checked::before {
   flex-direction: column;
   justify-content: center;
 }
-
 .header:after {
   content: "";
   display: table;
   clear: both;
 }
-
 input {
   margin: 0;
   border: none;
