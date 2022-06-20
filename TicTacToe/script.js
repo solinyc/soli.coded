@@ -1,6 +1,5 @@
 function myfunc() {
- 
-    // Setting DOM to all boxes or input field
+    // Setting DOM to all input fields/boxes
     var b1, b2, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("b1").value;
     b2 = document.getElementById("b2").value;
@@ -11,9 +10,8 @@ function myfunc() {
     b7 = document.getElementById("b7").value;
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
- 
-    // Checking if Player X won or not and after
-    // that disabled all the other fields
+
+    // Checking if Player X won and disabling  all other fields
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
         b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
         document.getElementById('print')
@@ -216,7 +214,7 @@ function myfunc() {
         note.style.color = 'red';
 
     }
- 
+    
     // Checking Player 0 status
     // Here, Checking about Tie
     else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'

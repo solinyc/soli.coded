@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  font-family: "Handlee", cursive;
+}
+
+form {
+  border: 5px solid;
+  border-radius: 20px;
+}
+
+body {
+  margin: 10px auto;
+  min-width: 350px;
+  max-width: 30%;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 5px;
+  text-decoration: black underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.3s;
+
+  /* disable select option */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom: 4px solid black;
+}
+
+ul li.checked {
+  background: crimson;
+  color: white;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  position: absolute;
+  border-color: white;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the 'x'' button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1% 2% 1% 2%;
+}
+
+.close:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.header {
+  background-color: rgb(4, 4, 4);
+  border: 4px solid rgb(154, 0, 0);
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  margin-top: 10px;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  font-family: "Times New Roman";
+}
+
+.addBtn {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  width: 100px;
+  border: 4px solid crimson;
+  background-color: crimson;
+}
+
+.addBtn:hover {
+  background-color: rgb(0, 0, 0);
+  border: 4px solid crimson;
+  color: white;
+}
+
+#clear-list {
+  margin-left: 27%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  width: 150px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: black;
+  border: 4px solid black;
+  border-radius: 7px;
+  text-align: center;
+  color: white;
+}
+
+#clear-list:hover {
+  background-color: crimson;
+  color: white;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free Web tutorials">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+  <title>Soli To-Do List</title>
+  <link href="toDo.css" rel="stylesheet" />
+</head>
+
+<body>
+  <form>
+    <div class="header">
+      <h2>To-Do List</h2>
+      <br />
+      <input 
+        class="addeditem" 
+        type="text" 
+        id="addedItem" 
+        placeholder="type new to-do..." 
+      />
+      <span 
+        onclick="newElement()" 
+        class="addBtn">Add To List
+      </span>
+    </div>
+    <ul id="myUL">
+      <li>Incomplete Task Sample</li>
+      <li class="checked">Completed Task Sample</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">
+      Delete List
+    </button>
+  </form>
+  <script src="toDo.js"></script>
+</body>
+
+</html>
